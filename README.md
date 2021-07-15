@@ -6,8 +6,12 @@
 AppDelegate.m中加入如下代码
 
 
-- (BOOL)application:(UIApplication *)application shouldAllowExtensionPointIdentifier:(NSString *)extensionPointIdentifier{\n
-    return [UITextField gm_shouldAllowExtensionPointIdentifier:extensionPointIdentifier];\n
+
+-(BOOL)application:(UIApplication *)application shouldAllowExtensionPointIdentifier:(NSString *)extensionPointIdentifier{
+    
+    return [UITextField gm_shouldAllowExtensionPointIdentifier:extensionPointIdentifier];
+    
+    
 }
 
 ## 第三步
